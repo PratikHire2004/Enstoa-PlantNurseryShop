@@ -1,0 +1,1016 @@
+2023-07-04 23:16:54.0092 Info Message Template Auto Format enabled
+2023-07-04 23:16:54.1236 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:16:54.1236 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:16:54.1284 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:16:54.1284 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:16:54.1284 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:16:54.1284 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:16:54.1284 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:16:54.1284 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:16:54.1284 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:16:54.1284 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:16:54.1284 Trace ParseRulesElement
+2023-07-04 23:16:54.1454 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:16:54.1454 Debug --- NLog configuration dump ---
+2023-07-04 23:16:54.1454 Debug Targets:
+2023-07-04 23:16:54.1454 Debug FileTarget(Name=logfile)
+2023-07-04 23:16:54.1454 Debug Rules:
+2023-07-04 23:16:54.1454 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:16:54.1454 Debug --- End of NLog configuration dump ---
+2023-07-04 23:16:54.1454 Trace FindReachableObject<System.Object>:
+2023-07-04 23:16:54.1454 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:16:54.1454 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:16:54.1454 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:16:54.1454 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:16:54.1454 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:16:54.1454 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:16:54.1454 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1454 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:16:54.1454 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1454 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:16:54.1454 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:16:54.1454 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:16:54.1586 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:16:54.1586 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1586 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:16:54.1586 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1586 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:16:54.1586 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:16:54.1586 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:16:54.1586 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:16:54.1586 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:16:54.1586 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:16:54.1586 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:16:54.1586 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:16:54.1586 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:16:54.1586 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:16:54.1586 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:16:54.1586 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:16:54.1586 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:16:54.1586 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:16:54.1746 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:16:54.1746 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:16:54.1746 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1746 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:16:54.1746 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1746 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:16:54.1746 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:16:54.1746 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:16:54.1746 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:16:54.1746 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:16:54.1746 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:16:54.1746 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:16:54.1746 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:16:54.1746 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1746 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:16:54.1746 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:16:54.1746 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:16:54.1746 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:16:54.1746 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:16:54.1746 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:16:54.1746 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:16:54.1746 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:16:54.1746 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:16:54.1746 Info Configuration initialized.
+2023-07-04 23:16:54.1945 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:16:54.1945 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:16:54.1945 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:16:54.1945 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:16:54.1945 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:16:54.1945 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:16:54.1945 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:16:54.2152 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:16:54.2152 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:16:54.2212 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-04 23:16:54.2212 Debug FileTarget(Name=logfile): Failed to retrieve FileInfo.CreationTimeUtc from FileName: d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt Exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'd:\Projects\Enstoa\ShopNursery\ShopNursery\logs\2023-07-04_logfile.txt'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.Create(String path)
+   at NLog.Internal.FileAppenders.BaseFileAppender.UpdateCreationTime()
+2023-07-04 23:16:54.2547 Debug FileTarget(Name=logfile): DirectoryNotFoundException - Attempting to create directory for FileName: d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt
+2023-07-04 23:19:40.9338 Info Message Template Auto Format enabled
+2023-07-04 23:19:40.9810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:19:40.9810 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:19:40.9810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:19:40.9810 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:19:40.9810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:19:40.9810 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:19:40.9810 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:19:40.9810 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:19:40.9810 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:19:40.9810 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:19:40.9810 Trace ParseRulesElement
+2023-07-04 23:19:40.9913 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:19:40.9913 Debug --- NLog configuration dump ---
+2023-07-04 23:19:40.9913 Debug Targets:
+2023-07-04 23:19:40.9913 Debug FileTarget(Name=logfile)
+2023-07-04 23:19:40.9913 Debug Rules:
+2023-07-04 23:19:40.9913 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:19:40.9913 Debug --- End of NLog configuration dump ---
+2023-07-04 23:19:40.9913 Trace FindReachableObject<System.Object>:
+2023-07-04 23:19:40.9913 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:19:40.9913 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:19:40.9913 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:19:40.9913 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:19:40.9913 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:19:40.9913 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:19:40.9913 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:40.9913 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:19:40.9913 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:40.9913 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:19:40.9913 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:19:40.9913 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:19:40.9913 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:19:40.9913 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:40.9913 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:19:40.9913 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:40.9913 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:19:40.9913 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:19:40.9913 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:19:40.9913 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:19:40.9913 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:19:41.0032 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:19:41.0032 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:19:41.0032 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:19:41.0032 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:19:41.0032 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:19:41.0032 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:19:41.0032 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:41.0032 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:19:41.0032 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:41.0032 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:19:41.0032 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:19:41.0032 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:19:41.0032 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:19:41.0032 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:19:41.0032 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:19:41.0032 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:41.0032 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:19:41.0032 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:19:41.0032 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:19:41.0032 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:19:41.0032 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:19:41.0032 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:19:41.0032 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:19:41.0032 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:19:41.0032 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:19:41.0032 Info Configuration initialized.
+2023-07-04 23:19:41.0234 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:19:41.0234 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:19:41.0234 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:19:41.0234 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:19:41.0234 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:19:41.0234 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:19:41.0234 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:19:41.0340 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:19:41.0340 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:19:41.0340 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-04 23:31:50.9220 Info Message Template Auto Format enabled
+2023-07-04 23:31:50.9657 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:31:50.9657 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:31:50.9657 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:31:50.9657 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:31:50.9657 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:31:50.9657 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:31:50.9657 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:31:50.9657 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:31:50.9657 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:31:50.9657 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:31:50.9657 Trace ParseRulesElement
+2023-07-04 23:31:50.9769 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:31:50.9769 Debug --- NLog configuration dump ---
+2023-07-04 23:31:50.9769 Debug Targets:
+2023-07-04 23:31:50.9769 Debug FileTarget(Name=logfile)
+2023-07-04 23:31:50.9769 Debug Rules:
+2023-07-04 23:31:50.9769 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:31:50.9769 Debug --- End of NLog configuration dump ---
+2023-07-04 23:31:50.9769 Trace FindReachableObject<System.Object>:
+2023-07-04 23:31:50.9769 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:31:50.9769 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:31:50.9769 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:31:50.9769 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:31:50.9769 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:31:50.9769 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:31:50.9769 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:50.9769 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:31:50.9769 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:50.9769 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:31:50.9869 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:31:50.9869 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:31:50.9869 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:31:50.9869 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:50.9869 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:31:50.9869 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:50.9869 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:31:50.9869 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:31:50.9869 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:31:50.9869 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:31:50.9869 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:31:50.9869 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:31:50.9869 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:31:50.9869 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:31:50.9869 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:31:50.9869 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:31:50.9869 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:31:50.9869 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:31:50.9869 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:31:50.9869 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:31:50.9869 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:31:50.9869 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:31:50.9869 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:50.9869 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:31:50.9869 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:50.9869 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:31:51.0033 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:31:51.0033 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:31:51.0033 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:31:51.0033 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:31:51.0033 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:31:51.0033 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:31:51.0033 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:31:51.0033 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:51.0033 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:31:51.0033 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:31:51.0033 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:31:51.0033 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:31:51.0033 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:31:51.0033 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:31:51.0033 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:31:51.0033 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:31:51.0033 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:31:51.0033 Info Configuration initialized.
+2023-07-04 23:31:51.0214 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:31:51.0214 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:31:51.0214 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:31:51.0214 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:31:51.0214 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:31:51.0214 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:31:51.0214 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:31:51.0214 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:31:51.0359 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:31:51.0359 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-04 23:36:21.8588 Info Message Template Auto Format enabled
+2023-07-04 23:36:21.9017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:36:21.9017 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:36:21.9017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:36:21.9017 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:36:21.9017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:36:21.9017 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:36:21.9017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:36:21.9017 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:36:21.9017 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:36:21.9017 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:36:21.9017 Trace ParseRulesElement
+2023-07-04 23:36:21.9124 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:36:21.9124 Debug --- NLog configuration dump ---
+2023-07-04 23:36:21.9124 Debug Targets:
+2023-07-04 23:36:21.9124 Debug FileTarget(Name=logfile)
+2023-07-04 23:36:21.9124 Debug Rules:
+2023-07-04 23:36:21.9124 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:36:21.9124 Debug --- End of NLog configuration dump ---
+2023-07-04 23:36:21.9124 Trace FindReachableObject<System.Object>:
+2023-07-04 23:36:21.9124 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:36:21.9124 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:36:21.9124 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:36:21.9124 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:36:21.9124 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:36:21.9124 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:36:21.9124 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9124 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:36:21.9124 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9124 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:36:21.9124 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:36:21.9124 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:36:21.9124 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:36:21.9124 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9124 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:36:21.9124 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9124 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:36:21.9124 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:36:21.9124 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:36:21.9124 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:36:21.9124 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:36:21.9248 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:36:21.9248 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:36:21.9248 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:36:21.9248 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:36:21.9248 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:36:21.9248 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:36:21.9248 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9248 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:36:21.9248 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9248 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:36:21.9248 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:36:21.9248 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:36:21.9248 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:36:21.9248 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:36:21.9248 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:36:21.9248 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9248 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:36:21.9248 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:36:21.9248 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:36:21.9248 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:36:21.9248 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:36:21.9248 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:36:21.9248 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:36:21.9248 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:36:21.9248 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:36:21.9248 Info Configuration initialized.
+2023-07-04 23:36:21.9424 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:36:21.9424 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:36:21.9424 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:36:21.9424 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:36:21.9424 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:36:21.9424 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:36:21.9424 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:36:21.9424 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:36:21.9564 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:36:21.9564 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-04 23:39:35.6345 Info Message Template Auto Format enabled
+2023-07-04 23:39:35.6811 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:39:35.6811 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:39:35.6811 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:39:35.6811 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:39:35.6811 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:39:35.6811 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:39:35.6811 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:39:35.6811 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:39:35.6811 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:39:35.6811 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:39:35.6811 Trace ParseRulesElement
+2023-07-04 23:39:35.6928 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:39:35.6928 Debug --- NLog configuration dump ---
+2023-07-04 23:39:35.6928 Debug Targets:
+2023-07-04 23:39:35.6928 Debug FileTarget(Name=logfile)
+2023-07-04 23:39:35.6928 Debug Rules:
+2023-07-04 23:39:35.6928 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:39:35.6928 Debug --- End of NLog configuration dump ---
+2023-07-04 23:39:35.6928 Trace FindReachableObject<System.Object>:
+2023-07-04 23:39:35.6928 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:39:35.6928 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:39:35.6928 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:39:35.6928 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:39:35.6928 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:39:35.6928 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:39:35.6928 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.6928 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:39:35.6928 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.6928 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:39:35.6928 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:39:35.6928 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:39:35.6928 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:39:35.6928 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.6928 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:39:35.6928 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.6928 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:39:35.6928 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:39:35.6928 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:39:35.6928 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:39:35.6928 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:39:35.6928 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:39:35.7069 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:39:35.7069 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:39:35.7069 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:39:35.7069 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:39:35.7069 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:39:35.7069 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.7069 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:39:35.7069 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.7069 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:39:35.7069 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:39:35.7069 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:39:35.7069 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:39:35.7069 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:39:35.7069 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:39:35.7069 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.7069 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:39:35.7069 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:39:35.7069 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:39:35.7069 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:39:35.7069 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:39:35.7069 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:39:35.7069 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:39:35.7069 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:39:35.7069 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:39:35.7069 Info Configuration initialized.
+2023-07-04 23:39:35.7229 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:39:35.7229 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:39:35.7229 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:39:35.7229 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:39:35.7229 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:39:35.7229 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:39:35.7229 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:39:35.7229 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:39:35.7229 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:39:35.7382 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-04 23:45:09.1757 Info Message Template Auto Format enabled
+2023-07-04 23:45:09.2220 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:45:09.2220 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:45:09.2220 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:45:09.2220 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:45:09.2220 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:45:09.2220 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:45:09.2220 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:45:09.2220 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:45:09.2220 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:45:09.2220 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:45:09.2220 Trace ParseRulesElement
+2023-07-04 23:45:09.2220 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:45:09.2220 Debug --- NLog configuration dump ---
+2023-07-04 23:45:09.2220 Debug Targets:
+2023-07-04 23:45:09.2220 Debug FileTarget(Name=logfile)
+2023-07-04 23:45:09.2220 Debug Rules:
+2023-07-04 23:45:09.2372 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:45:09.2372 Debug --- End of NLog configuration dump ---
+2023-07-04 23:45:09.2372 Trace FindReachableObject<System.Object>:
+2023-07-04 23:45:09.2372 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:45:09.2372 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:45:09.2372 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:45:09.2372 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:45:09.2372 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:45:09.2372 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:45:09.2372 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2372 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:45:09.2372 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2372 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:45:09.2372 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:45:09.2372 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:45:09.2372 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:45:09.2372 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2372 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:45:09.2372 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2372 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:45:09.2372 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:45:09.2372 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:45:09.2372 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:45:09.2372 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:45:09.2372 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:45:09.2372 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:45:09.2372 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:45:09.2372 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:45:09.2372 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:45:09.2372 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:45:09.2372 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:45:09.2524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:45:09.2524 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:45:09.2524 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:45:09.2524 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:45:09.2524 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2524 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:45:09.2524 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2524 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:45:09.2524 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:45:09.2524 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:45:09.2524 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:45:09.2524 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:45:09.2524 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:45:09.2524 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:45:09.2524 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:45:09.2524 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2524 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:45:09.2524 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:45:09.2524 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:45:09.2524 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:45:09.2524 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:45:09.2524 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:45:09.2524 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:45:09.2524 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:45:09.2524 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:45:09.2524 Info Configuration initialized.
+2023-07-04 23:45:09.2683 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:45:09.2683 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:45:09.2683 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:45:09.2683 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:45:09.2683 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:45:09.2683 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:45:09.2683 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:45:09.2683 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:45:09.2683 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:45:09.2683 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-04 23:50:34.9753 Info Message Template Auto Format enabled
+2023-07-04 23:50:35.1010 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:50:35.1010 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:50:35.1010 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:50:35.1010 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:50:35.1147 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:50:35.1147 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:50:35.1147 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:50:35.1147 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:50:35.1147 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:50:35.1147 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-04 23:50:35.1147 Trace ParseRulesElement
+2023-07-04 23:50:35.1387 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-04 23:50:35.1387 Debug --- NLog configuration dump ---
+2023-07-04 23:50:35.1387 Debug Targets:
+2023-07-04 23:50:35.1448 Debug FileTarget(Name=logfile)
+2023-07-04 23:50:35.1448 Debug Rules:
+2023-07-04 23:50:35.1448 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-04 23:50:35.1448 Debug --- End of NLog configuration dump ---
+2023-07-04 23:50:35.1448 Trace FindReachableObject<System.Object>:
+2023-07-04 23:50:35.1448 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-04 23:50:35.1448 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-04 23:50:35.1448 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:50:35.1602 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:50:35.1602 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:50:35.1602 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:50:35.1602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1602 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:50:35.1602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1602 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:50:35.1602 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:50:35.1602 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:50:35.1602 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:50:35.1602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1602 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:50:35.1602 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1602 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:50:35.1602 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-04 23:50:35.1602 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-04 23:50:35.1602 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-04 23:50:35.1749 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-04 23:50:35.1749 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-04 23:50:35.1749 Trace Initializing Layout Renderer: ${message}
+2023-07-04 23:50:35.1749 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:50:35.1749 Trace Initializing Layout Renderer: ${level}
+2023-07-04 23:50:35.1749 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:50:35.1749 Trace Initializing Layout Renderer: ${longdate}
+2023-07-04 23:50:35.1749 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-04 23:50:35.1913 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:50:35.1913 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-04 23:50:35.1913 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:50:35.1913 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-04 23:50:35.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1913 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-04 23:50:35.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1913 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-04 23:50:35.1913 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:50:35.1913 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-04 23:50:35.1913 Trace Initializing Layout Renderer: ${literal}
+2023-07-04 23:50:35.1913 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-04 23:50:35.1913 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-04 23:50:35.1913 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-04 23:50:35.1913 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-04 23:50:35.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1913 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-04 23:50:35.1913 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-04 23:50:35.1913 Trace Initializing FileTarget(Name=logfile)
+2023-07-04 23:50:35.2070 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-04 23:50:35.2070 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-04 23:50:35.2070 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-04 23:50:35.2070 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-04 23:50:35.2070 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-04 23:50:35.2070 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-04 23:50:35.2070 Info Configuration initialized.
+2023-07-04 23:50:35.2301 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-04 23:50:35.2301 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-04 23:50:35.2301 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-04 23:50:35.2301 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-04 23:50:35.2301 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-04 23:50:35.2301 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-04 23:50:35.2301 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-04 23:50:35.2647 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:50:35.2721 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt'
+2023-07-04 23:50:35.2721 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-04_logfile.txt with allowFileSharedWriting=False
+2023-07-05 00:21:24.1871 Info Message Template Auto Format enabled
+2023-07-05 00:21:24.2959 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:21:24.2959 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:21:24.3017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:21:24.3017 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:21:24.3017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:21:24.3017 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:21:24.3017 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:21:24.3017 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:21:24.3017 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:21:24.3017 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:21:24.3017 Trace ParseRulesElement
+2023-07-05 00:21:24.3238 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-05 00:21:24.3238 Debug --- NLog configuration dump ---
+2023-07-05 00:21:24.3238 Debug Targets:
+2023-07-05 00:21:24.3238 Debug FileTarget(Name=logfile)
+2023-07-05 00:21:24.3238 Debug Rules:
+2023-07-05 00:21:24.3238 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-05 00:21:24.3238 Debug --- End of NLog configuration dump ---
+2023-07-05 00:21:24.3306 Trace FindReachableObject<System.Object>:
+2023-07-05 00:21:24.3306 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-05 00:21:24.3306 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-05 00:21:24.3306 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:21:24.3306 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:21:24.3306 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:21:24.3306 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:21:24.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3306 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:21:24.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3306 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:21:24.3306 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:21:24.3306 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:21:24.3306 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:21:24.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3306 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:21:24.3306 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3306 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:21:24.3306 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-05 00:21:24.3306 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-05 00:21:24.3306 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-05 00:21:24.3306 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-05 00:21:24.3503 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-05 00:21:24.3503 Trace Initializing Layout Renderer: ${message}
+2023-07-05 00:21:24.3503 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:21:24.3503 Trace Initializing Layout Renderer: ${level}
+2023-07-05 00:21:24.3503 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:21:24.3503 Trace Initializing Layout Renderer: ${longdate}
+2023-07-05 00:21:24.3503 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-05 00:21:24.3503 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:21:24.3503 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:21:24.3503 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:21:24.3503 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:21:24.3503 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3503 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:21:24.3503 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3503 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:21:24.3651 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:21:24.3651 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-05 00:21:24.3651 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:21:24.3651 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-05 00:21:24.3651 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:21:24.3651 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:21:24.3651 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:21:24.3651 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3651 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:21:24.3651 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:21:24.3651 Trace Initializing FileTarget(Name=logfile)
+2023-07-05 00:21:24.3651 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-05 00:21:24.3651 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:21:24.3651 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:21:24.3651 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:21:24.3651 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-05 00:21:24.3651 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-05 00:21:24.3786 Info Configuration initialized.
+2023-07-05 00:21:24.3945 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-05 00:21:24.3945 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-05 00:21:24.3945 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-05 00:21:24.3945 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-05 00:21:24.3945 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-05 00:21:24.3945 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-05 00:21:24.3945 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-05 00:21:24.4200 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:21:24.4260 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:21:24.4260 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt with allowFileSharedWriting=False
+2023-07-05 00:26:47.9020 Info Message Template Auto Format enabled
+2023-07-05 00:26:47.9862 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:26:47.9889 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:26:47.9889 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:26:47.9889 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:26:47.9889 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:26:47.9889 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:26:47.9889 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:26:47.9889 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:26:47.9889 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:26:47.9889 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:26:47.9889 Trace ParseRulesElement
+2023-07-05 00:26:48.0088 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-05 00:26:48.0088 Debug --- NLog configuration dump ---
+2023-07-05 00:26:48.0088 Debug Targets:
+2023-07-05 00:26:48.0088 Debug FileTarget(Name=logfile)
+2023-07-05 00:26:48.0088 Debug Rules:
+2023-07-05 00:26:48.0088 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-05 00:26:48.0088 Debug --- End of NLog configuration dump ---
+2023-07-05 00:26:48.0088 Trace FindReachableObject<System.Object>:
+2023-07-05 00:26:48.0088 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-05 00:26:48.0088 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-05 00:26:48.0088 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:26:48.0088 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:26:48.0088 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:26:48.0088 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:26:48.0185 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0185 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:26:48.0185 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0185 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:26:48.0185 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:26:48.0185 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:26:48.0185 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:26:48.0185 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0185 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:26:48.0185 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0185 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:26:48.0185 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-05 00:26:48.0185 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-05 00:26:48.0185 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-05 00:26:48.0185 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-05 00:26:48.0185 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-05 00:26:48.0185 Trace Initializing Layout Renderer: ${message}
+2023-07-05 00:26:48.0185 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:26:48.0185 Trace Initializing Layout Renderer: ${level}
+2023-07-05 00:26:48.0185 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:26:48.0185 Trace Initializing Layout Renderer: ${longdate}
+2023-07-05 00:26:48.0185 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-05 00:26:48.0342 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:26:48.0342 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:26:48.0342 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:26:48.0342 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:26:48.0342 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0342 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:26:48.0342 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0342 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:26:48.0342 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:26:48.0342 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-05 00:26:48.0342 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:26:48.0342 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-05 00:26:48.0342 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:26:48.0342 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:26:48.0342 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:26:48.0342 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0342 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:26:48.0342 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:26:48.0342 Trace Initializing FileTarget(Name=logfile)
+2023-07-05 00:26:48.0342 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-05 00:26:48.0342 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:26:48.0342 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:26:48.0342 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:26:48.0342 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-05 00:26:48.0342 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-05 00:26:48.0342 Info Configuration initialized.
+2023-07-05 00:26:48.0625 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-05 00:26:48.0650 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-05 00:26:48.0650 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-05 00:26:48.0650 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-05 00:26:48.0650 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-05 00:26:48.0650 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-05 00:26:48.0650 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-05 00:26:48.0929 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:26:48.0990 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:26:48.0990 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt with allowFileSharedWriting=False
+2023-07-05 00:32:20.2800 Info Message Template Auto Format enabled
+2023-07-05 00:32:20.3922 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:32:20.3954 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:32:20.3954 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:32:20.3954 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:32:20.3954 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:32:20.3954 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:32:20.3954 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:32:20.3954 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:32:20.3954 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:32:20.3954 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:32:20.3954 Trace ParseRulesElement
+2023-07-05 00:32:20.4241 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-05 00:32:20.4250 Debug --- NLog configuration dump ---
+2023-07-05 00:32:20.4250 Debug Targets:
+2023-07-05 00:32:20.4250 Debug FileTarget(Name=logfile)
+2023-07-05 00:32:20.4250 Debug Rules:
+2023-07-05 00:32:20.4250 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-05 00:32:20.4250 Debug --- End of NLog configuration dump ---
+2023-07-05 00:32:20.4250 Trace FindReachableObject<System.Object>:
+2023-07-05 00:32:20.4250 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-05 00:32:20.4250 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-05 00:32:20.4419 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:32:20.4419 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:32:20.4419 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:32:20.4419 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:32:20.4419 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4419 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:32:20.4419 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4419 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:32:20.4419 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:32:20.4419 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:32:20.4419 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:32:20.4419 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4419 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:32:20.4419 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4419 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:32:20.4419 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-05 00:32:20.4419 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-05 00:32:20.4419 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-05 00:32:20.4570 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-05 00:32:20.4570 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-05 00:32:20.4570 Trace Initializing Layout Renderer: ${message}
+2023-07-05 00:32:20.4570 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:32:20.4570 Trace Initializing Layout Renderer: ${level}
+2023-07-05 00:32:20.4570 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:32:20.4570 Trace Initializing Layout Renderer: ${longdate}
+2023-07-05 00:32:20.4570 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-05 00:32:20.4570 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:32:20.4717 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:32:20.4717 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:32:20.4717 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:32:20.4717 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4717 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:32:20.4717 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4717 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:32:20.4717 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:32:20.4717 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-05 00:32:20.4717 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:32:20.4717 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-05 00:32:20.4717 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:32:20.4717 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:32:20.4717 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:32:20.4717 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4717 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:32:20.4717 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:32:20.4717 Trace Initializing FileTarget(Name=logfile)
+2023-07-05 00:32:20.4717 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-05 00:32:20.4717 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:32:20.4717 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:32:20.4717 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:32:20.4717 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-05 00:32:20.4900 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-05 00:32:20.4900 Info Configuration initialized.
+2023-07-05 00:32:20.5131 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-05 00:32:20.5131 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-05 00:32:20.5131 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-05 00:32:20.5131 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-05 00:32:20.5186 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-05 00:32:20.5186 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-05 00:32:20.5186 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-05 00:32:20.5400 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:32:20.5400 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:32:20.5400 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt with allowFileSharedWriting=False
+2023-07-05 00:33:33.7013 Info Message Template Auto Format enabled
+2023-07-05 00:33:33.7904 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:33:33.7904 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:33:33.7904 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:33:33.7904 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:33:33.7904 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:33:33.7904 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:33:33.7904 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:33:33.7904 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:33:33.7998 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:33:33.7998 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:33:33.7998 Trace ParseRulesElement
+2023-07-05 00:33:33.8164 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-05 00:33:33.8164 Debug --- NLog configuration dump ---
+2023-07-05 00:33:33.8164 Debug Targets:
+2023-07-05 00:33:33.8164 Debug FileTarget(Name=logfile)
+2023-07-05 00:33:33.8164 Debug Rules:
+2023-07-05 00:33:33.8164 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-05 00:33:33.8164 Debug --- End of NLog configuration dump ---
+2023-07-05 00:33:33.8164 Trace FindReachableObject<System.Object>:
+2023-07-05 00:33:33.8164 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-05 00:33:33.8164 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-05 00:33:33.8164 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:33:33.8164 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:33:33.8164 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:33:33.8164 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:33:33.8314 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8314 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:33:33.8314 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8314 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:33:33.8314 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:33:33.8314 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:33:33.8314 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:33:33.8314 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8314 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:33:33.8314 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8314 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:33:33.8314 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-05 00:33:33.8314 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-05 00:33:33.8314 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-05 00:33:33.8314 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-05 00:33:33.8460 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${message}
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${level}
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${longdate}
+2023-07-05 00:33:33.8460 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-05 00:33:33.8460 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:33:33.8460 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:33:33.8460 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:33:33.8460 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:33:33.8460 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8460 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:33:33.8460 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8460 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-05 00:33:33.8460 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:33:33.8460 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-05 00:33:33.8460 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:33:33.8460 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:33:33.8460 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:33:33.8460 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8460 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:33:33.8460 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:33:33.8460 Trace Initializing FileTarget(Name=logfile)
+2023-07-05 00:33:33.8644 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-05 00:33:33.8644 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:33:33.8644 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:33:33.8644 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:33:33.8644 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-05 00:33:33.8644 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-05 00:33:33.8644 Info Configuration initialized.
+2023-07-05 00:33:33.8959 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-05 00:33:33.8959 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-05 00:33:33.8959 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-05 00:33:33.8959 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-05 00:33:33.8959 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-05 00:33:33.8959 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-05 00:33:33.8959 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-05 00:33:33.9391 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:33:33.9483 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:33:33.9483 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt with allowFileSharedWriting=False
+2023-07-05 00:49:39.7656 Info Message Template Auto Format enabled
+2023-07-05 00:49:39.8549 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:49:39.8549 Trace Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:49:39.8549 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:49:39.8549 Trace Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:49:39.8618 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:49:39.8618 Trace Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:49:39.8618 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:49:39.8618 Trace Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:49:39.8618 Debug Adding target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:49:39.8618 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-07-05 00:49:39.8618 Trace ParseRulesElement
+2023-07-05 00:49:39.8618 Debug Watching file-filter 'NLog.config' in directory: D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0
+2023-07-05 00:49:39.8618 Debug --- NLog configuration dump ---
+2023-07-05 00:49:39.8618 Debug Targets:
+2023-07-05 00:49:39.8618 Debug FileTarget(Name=logfile)
+2023-07-05 00:49:39.8618 Debug Rules:
+2023-07-05 00:49:39.8790 Debug logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]
+2023-07-05 00:49:39.8790 Debug --- End of NLog configuration dump ---
+2023-07-05 00:49:39.8790 Trace FindReachableObject<System.Object>:
+2023-07-05 00:49:39.8790 Trace Scanning LoggingRule 'logNamePattern: (:All) levels: [ Debug Info Warn Error Fatal ] writeTo: [ logfile ]'
+2023-07-05 00:49:39.8790 Trace  Scanning Property Targets 'System.Collections.Generic.List`1[NLog.Targets.Target]' System.Collections.Generic.IList`1[NLog.Targets.Target]
+2023-07-05 00:49:39.8790 Trace  Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:49:39.8790 Trace   Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:49:39.8790 Trace   Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:49:39.8790 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:49:39.8790 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.8790 Trace    Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:49:39.8790 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.8790 Trace   Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:49:39.8790 Trace   Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:49:39.8790 Trace    Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:49:39.8790 Trace    Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:49:39.8790 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.8790 Trace    Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:49:39.8790 Trace    Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.8790 Trace    Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:49:39.8790 Trace  Scanning Property ChildRules 'System.Collections.Generic.List`1[NLog.Config.LoggingRule]' System.Collections.Generic.IList`1[NLog.Config.LoggingRule]
+2023-07-05 00:49:39.8790 Trace  Scanning Property Filters 'System.Collections.Generic.List`1[NLog.Filters.Filter]' System.Collections.Generic.IList`1[NLog.Filters.Filter]
+2023-07-05 00:49:39.8936 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=D:\Projects\Enstoa\ShopNursery\ShopNursery\bin\Debug\net7.0\NLog.config
+2023-07-05 00:49:39.8936 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2023-07-05 00:49:39.8936 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2023-07-05 00:49:39.8936 Trace Initializing Layout Renderer: ${message}
+2023-07-05 00:49:39.9088 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:49:39.9088 Trace Initializing Layout Renderer: ${level}
+2023-07-05 00:49:39.9088 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:49:39.9088 Trace Initializing Layout Renderer: ${longdate}
+2023-07-05 00:49:39.9088 Trace Initializing ${longdate} ${level:uppercase=true} ${message}
+2023-07-05 00:49:39.9088 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:49:39.9088 Trace Scanning SimpleLayout '${longdate} ${level:uppercase=true} ${message}'
+2023-07-05 00:49:39.9088 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:49:39.9088 Trace  Scanning LongDateLayoutRenderer 'Layout Renderer: ${longdate}'
+2023-07-05 00:49:39.9088 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.9088 Trace  Scanning LevelLayoutRenderer 'Layout Renderer: ${level}'
+2023-07-05 00:49:39.9088 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.9088 Trace  Scanning MessageLayoutRenderer 'Layout Renderer: ${message}'
+2023-07-05 00:49:39.9088 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:49:39.9251 Trace Initializing Layout Renderer: ${shortdate}
+2023-07-05 00:49:39.9251 Trace Initializing Layout Renderer: ${literal}
+2023-07-05 00:49:39.9251 Trace Initializing d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt
+2023-07-05 00:49:39.9251 Trace FindReachableObject<NLog.Internal.IRenderable>:
+2023-07-05 00:49:39.9251 Trace Scanning SimpleLayout 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt'
+2023-07-05 00:49:39.9251 Trace  Scanning Property LayoutRenderers 'NLog.LayoutRenderers.LayoutRenderer[]' System.Collections.Generic.IEnumerable`1[NLog.LayoutRenderers.LayoutRenderer]
+2023-07-05 00:49:39.9251 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.9251 Trace  Scanning ShortDateLayoutRenderer 'Layout Renderer: ${shortdate}'
+2023-07-05 00:49:39.9251 Trace  Scanning LiteralLayoutRenderer 'Layout Renderer: ${literal}'
+2023-07-05 00:49:39.9251 Trace Initializing FileTarget(Name=logfile)
+2023-07-05 00:49:39.9251 Trace FindReachableObject<NLog.Layouts.Layout>:
+2023-07-05 00:49:39.9251 Trace Scanning FileTarget 'FileTarget(Name=logfile)'
+2023-07-05 00:49:39.9251 Trace  Scanning Property FileName 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/${shortdate}_logfile.txt' NLog.Layouts.Layout
+2023-07-05 00:49:39.9251 Trace  Scanning Property Layout '${longdate} ${level:uppercase=true} ${message}' NLog.Layouts.Layout
+2023-07-05 00:49:39.9251 Trace FileTarget(Name=logfile) has 2 layouts
+2023-07-05 00:49:39.9251 Trace FileTarget(Name=logfile): Using appenderFactory: NLog.Internal.FileAppenders.SingleProcessFileAppender+Factory
+2023-07-05 00:49:39.9251 Info Configuration initialized.
+2023-07-05 00:49:39.9485 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.1.1908. Product version: 5.2.1+7ae091e0d46a77dff2ab034e1f30e8a7ea3e19f7. GlobalAssemblyCache: False
+2023-07-05 00:49:39.9485 Debug Targets configured when LogLevel >= Debug for Logger: ShopNursery.Services.LoggerService
+2023-07-05 00:49:39.9485 Debug Logger ShopNursery.Services.LoggerService [Debug] => logfile
+2023-07-05 00:49:39.9485 Debug Logger ShopNursery.Services.LoggerService [Info] => logfile
+2023-07-05 00:49:39.9485 Debug Logger ShopNursery.Services.LoggerService [Warn] => logfile
+2023-07-05 00:49:39.9485 Debug Logger ShopNursery.Services.LoggerService [Error] => logfile
+2023-07-05 00:49:39.9485 Debug Logger ShopNursery.Services.LoggerService [Fatal] => logfile
+2023-07-05 00:49:39.9664 Debug FileTarget(Name=logfile): Preparing for new file: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:49:39.9664 Debug FileTarget(Name=logfile): Creating file appender: 'd:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt'
+2023-07-05 00:49:39.9664 Trace FileTarget(Name=logfile): Opening d:/Projects/Enstoa/ShopNursery/ShopNursery/logs/2023-07-05_logfile.txt with allowFileSharedWriting=False
